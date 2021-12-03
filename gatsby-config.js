@@ -19,6 +19,7 @@ module.exports = {
   siteMetadata: {
     title: 'E-portfolio',
     description: 'Web dev portfolio',
-    copyright: 'This website is copyright 2021'
+    copyright: 'This website is copyright 2021',
+    contact: 'korangibipin7@gmail.com',
   }
 }
