@@ -7,14 +7,10 @@ export default function About() {
       <div>
         <h2>About Page</h2>
         <p>
-          You need to have Web Essentials installed. Download link. I have it
-          installed, but didn't know about that feature so thanks for
-          highlighting ...
+          Mero Sabnum Baby
         </p>
         <p>
-          You need to have Web Essentials installed. Download link. I have it
-          installed, but didn't know about that feature so thanks for
-          highlighting ...
+          Today its Saturday.
         </p>
         <p>
           You need to have Web Essentials installed. Download link. I have it
