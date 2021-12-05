@@ -1,7 +1,7 @@
 ---
-title: Real Kitchen Food
-stack: Gatsby & Shopify
-slug: real-kitchen-food
+title: Blog Post
+stack: Django, HTML & CSS
+slug: blog-post
 date: 2021-01-02
 ---
 
