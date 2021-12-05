@@ -5,13 +5,13 @@
   padding: 0;
   text-decoration: none;
   font-family: "Montserrat";
-  color: white;
+  color: rgb(0, 0, 0);
 }
 html, body {
   min-height: 100%;
 }
 body {
-  background: radial-gradient(at top left, rgba(146,43,225,1) 0%, rgba(43,9,107,1) 100%);
+  background: radial-gradient(at top left, rgb(181, 163, 248) 0%, rgb(82, 4, 146) 100%);
   background-repeat: no-repeat;
 }
 p {
@@ -36,15 +36,20 @@ nav .links {
 nav a {
   display: inline-block;
   margin-left: 20px;
-  font-weight: 400;
+  font-size: 1.6em;
+  font-weight: 500;
   padding-bottom: 8px;
   border-bottom: 3px solid transparent;
 }
 nav a:hover {
-  border-color: white;
+  border-color: rgb(165, 4, 214);
 }
 footer p{
   text-align: center;
-  color: #bbb;
+  color: rgb(255, 255, 255);
   margin: 40px auto;
+}
+
+footer a{
+  font-weight: 500;
 }

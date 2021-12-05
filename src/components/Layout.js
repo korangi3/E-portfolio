@@ -10,7 +10,7 @@ export default function Layout({ children }) {
                 { children }
             </div>
             <footer>
-                <p>Copyright 2021</p>
+                <p>© Bipin 2021, Built by <a href="https://www.gatsbyjs.com/" target="_blank">Gatsby</a></p>
             </footer>
         </div>
     )
