@@ -29,6 +29,5 @@
 .border {
   border: solid 1px;
   border-radius: 25px 25px;
-  backdrop-filter: blur(5px);
   box-shadow: 15px 25px 45px rgba(20, 15, 15, 0.4);
 }
