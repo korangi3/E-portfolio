@@ -16,7 +16,7 @@ export default function Home() {
           <br />
           <h4>A Fullstack Developer.</h4>
           <br />
-          <h4>Working with Django and React</h4>
+          <h4>Working with Django and React.</h4>
           <br />
           <h5>
             Currently pursuing Bachelor in CSIT at{" "}
@@ -41,31 +41,31 @@ export default function Home() {
         <h4>Technologies I'm familiar with</h4>
         <div className={styles.icons}>
           <div>
-            <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" />
+            <img src="/html.png" />
             <p>Html</p>
           </div>
           <div>
-            <img src="https://cdn-icons-png.flaticon.com/512/732/732007.png"/>
+            <img src="css.png"/>
             <p>CSS</p>
           </div>
           <div>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/900px-JavaScript-logo.png"/>
+            <img src="js.png"/>
             <p>Javascript</p>
           </div>
           <div>
-            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png"/>
+            <img src="python.png"/>
             <p>Python</p>
           </div>
           <div>
-            <img src="https://cdn-icons-png.flaticon.com/512/1126/1126012.png"/>
+            <img src="react.png"/>
             <p>React</p>
           </div>
           <div>
-            <img src="https://cdn-icons.flaticon.com/png/512/1240/premium/1240970.png?token=exp=1638624333~hmac=8c0ecd1423a32f7562291cd31f29796b"/>
+            <img src="git.png"/>
             <p>Git</p>
           </div>
           <div>
-            <img src="https://www.iconbolt.com/iconsets/remix-icon-line/gatsby.svg"/>
+            <img src="gatsby.png"/>
             <p>Gatsby</p>
           </div>
           
