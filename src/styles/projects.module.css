@@ -18,10 +18,10 @@
 .projects h3 {
   text-align: center;
   margin: 20px auto 0px;
-  font-weight: 600;
+  font-weight: 500;
 }
 .projects p {
-  color: rgb(0, 0, 0);
+  color: rgb(245, 148, 208);
   margin-top: 4px;
   font-weight: 500;
 }
@@ -30,4 +30,8 @@
   border: solid 1px;
   border-radius: 25px 25px;
   box-shadow: 15px 25px 45px rgba(20, 15, 15, 0.4);
+}
+
+Link:hover{
+  background-color:rgb(245, 148, 208);
 }

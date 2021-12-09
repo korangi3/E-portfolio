@@ -1,45 +1,54 @@
 .header {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 40px;
-    align-items: right;
-    padding-left: 100px;
-    padding-top: 50px;
-  }
-  .header h5 {
-    font-size: 1em;
-    font-weight: 200;
-    margin-bottom: 10px;
-  }
-  .header a{
-    font-weight: 500;
-    color: rgb(241, 144, 144);
-  }
-  .header h4{
-    font-size: 1.5em;
-    font-weight: 200;
-    margin-bottom: 10px;
-  }
-  .btn {
-    display: inline-block;
-    background: #e42828;
-    padding: 10px 16px;
-    border-radius: 10px;
-    margin-top: 20px;
-    font-weight: 600;
-  }
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  align-items: right;
+  padding-left: 100px;
+  padding-top: 50px;
+}
+.header h5 {
+  font-size: 1em;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+.header a {
+  font-weight: 500;
+  color: rgb(245, 104, 214);
+}
+.header a:hover {
+  color: rgb(94, 0, 62);
+}
+.header h4 {
+  font-size: 1.5em;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+.btn {
+  display: inline-block;
+  background: #aa0000;
+  padding: 10px 16px;
+  border-radius: 8px;
+  margin-top: 20px;
+  font-weight: 600;
+  transition-duration: 0.4s;
+}
+.btn:hover {
+  background-color: rgb(250, 49, 190);
+  color: rgb(59, 1, 1);
+}
 
-.btm{
+.btm {
   text-align: center;
   padding-top: 100px;
   font-size: 1.5em;
   font-weight: 200;
 }
-.btm h4{
+.btm h4 {
   padding-bottom: 100px;
+  font-weight: 400;
 }
 
-.icons{
+.icons {
   padding-left: 100px;
   padding-right: 100px;
   display: grid;
@@ -47,12 +56,12 @@
   grid-gap: 50px;
 }
 
-.icons img{
+.icons img {
   height: 50px;
   width: 50px;
 }
 
-.icons p{
+.icons p {
   font-size: 0.8em;
   font-weight: 500;
 }
