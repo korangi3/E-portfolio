@@ -4,7 +4,6 @@
   grid-gap: 40px;
   align-items: right;
   padding-left: 100px;
-  padding-top: 50px;
 }
 .header h5 {
   font-size: 1em;
@@ -39,13 +38,15 @@
 .res{
   text-align: center;
 }
-.res a{
+.res p{
   transition-duration: 0.4s;
   color: yellow;
   margin: 7px;
 }
-
-.res a:hover {
+.res a{
+  margin-left: 20px;
+}
+.res p:hover {
   color: orange;
 }
 .res img{
