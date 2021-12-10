@@ -37,6 +37,10 @@ export default function Home() {
           style={{ maxWidth: "100%" }}
         />
       </section>
+      <div className={styles.res}>
+       <a href="#"><img src="github.png" /></a> 
+      <a href="#">RESUME</a>
+      </div>
       <div className={styles.btm}>
         <h4>Technologies I'm familiar with</h4>
         <div className={styles.icons}>

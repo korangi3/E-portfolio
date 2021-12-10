@@ -36,10 +36,26 @@
   background-color: rgb(250, 49, 190);
   color: rgb(59, 1, 1);
 }
+.res{
+  text-align: center;
+}
+.res a{
+  transition-duration: 0.4s;
+  color: yellow;
+  margin: 7px;
+}
+
+.res a:hover {
+  color: orange;
+}
+.res img{
+  width: 30px;
+  height: 30px;
+}
 
 .btm {
   text-align: center;
-  padding-top: 100px;
+  padding-top: 80px;
   font-size: 1.5em;
   font-weight: 200;
 }
