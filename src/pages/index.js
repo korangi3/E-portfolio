@@ -38,8 +38,9 @@ export default function Home() {
         />
       </section>
       <div className={styles.res}>
-       <a href="#"><img src="github.png" /></a> 
-      <a href="#">RESUME</a>
+       <a href="https://github.com/korangi3" target="_blank"><img src="github.png" /></a> 
+       <a href="https://www.linkedin.com/in/bipin-gurung-535ba420a/" target="_blank"><img src="linkedin.png" /></a> 
+      <a href="#"><p>RESUME</p></a>
       </div>
       <div className={styles.btm}>
         <h4>Technologies I'm familiar with</h4>
