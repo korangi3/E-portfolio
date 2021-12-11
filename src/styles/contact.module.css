@@ -5,7 +5,7 @@
 }
 
 p {
-  font-size: 1.2em;
+  font-size: 1.2rem;
   font-weight: 400;
   font-family: "Montserrat";
 }
@@ -15,8 +15,8 @@ h1 {
 }
 
 input {
-  width: 300px;
-  height: 35px;
+  width: 18.75rem;
+  height: 2.18rem;
   border: solid 1px;
   border-radius: 6px 6px;
   text-align: center;
@@ -26,18 +26,19 @@ input {
 
 textarea {
   border: solid 1px;
-  min-height: 200px;
-  width: 300px;
+  min-height: 12.5rem;
+  width: 18.75rem;
   border-radius: 7px 7px;
   text-align: center;
   font-size: larger;
   color: black;
 }
 
-button {
-  margin-top: 20px;
-  width: 70px;
-  height: 33px;
+.button {
+  margin-top: 1.1rem;
+  padding-top: .2rem;
+  width: 4.37rem;
+  height: 1.5rem;
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
@@ -48,7 +49,13 @@ button {
   transition-duration: 0.4s;
 }
 
-button:hover {
+.button:hover {
     background-color: rgb(241, 124, 179);
     color: red;
+  }
+
+  @media(max-width: 768px){
+    html{
+      font-size: 45%;
+    }
   }

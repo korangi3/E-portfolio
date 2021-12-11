@@ -11,23 +11,24 @@ html, body {
   min-height: 100%;
 }
 body {
+  background-size: cover;
   background: radial-gradient(at top left, rgb(115, 78, 250) 0%, rgb(64, 1, 116) 100%);
-  background-repeat: no-repeat;
+
 }
 p {
-  margin: 16px auto;
-  line-height: 1.5em;
+  margin: 1rem auto;
+  line-height: 1.5rem;
 }
 
 /* layout & nav */
 .layout {
-  max-width: 1200px;
+  max-width: 75rem;
   margin: 0 auto;
 }
 nav {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 40px auto;
+  margin: 2.5rem auto;
 }
 nav .links {
   display: inline-block;
@@ -35,10 +36,10 @@ nav .links {
 }
 nav a {
   display: inline-block;
-  margin-left: 20px;
-  font-size: 1.6em;
+  margin-left: 1rem;
+  font-size: 1.6rem;
   font-weight: 400;
-  padding-bottom: 8px;
+  padding-bottom: .5rem;
   border-bottom: 3px solid transparent;
   transition-duration: 0.4s;
 }
@@ -61,4 +62,10 @@ footer a{
 }
 footer a:hover{
   color: rgb(126, 126, 126);
+}
+
+@media(max-width: 768px){
+  html{
+    font-size: 45%;
+  }
 }
