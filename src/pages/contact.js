@@ -1,11 +1,12 @@
 import React from "react"
+import { Link } from "gatsby"
 import Layout from "../components/Layout"
 import * as styles from "../styles/contact.module.css"
 
 export default function Contact() {
   return (
     <Layout>
-      <form action="POST" data-netlify="true">
+      <form action="POST">
         <div className={styles.container}>
           <h1>Send me a message.</h1><br/>
           <p>Name:</p>
@@ -15,7 +16,7 @@ export default function Contact() {
           <p>Message: </p>
           <textarea name="message" placeholder="Enter message"></textarea>
           <br />
-          <button onClick="submit" name="submit">Submit</button>
+          <Link className={styles.button} to="/submitted">Submit</Link>
         </div>
       </form>
     </Layout>

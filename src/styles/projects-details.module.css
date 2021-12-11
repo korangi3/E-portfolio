@@ -3,24 +3,24 @@
     margin-top: 80px;
   }
   .details h3 {
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: 200;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
   }
   .html {
-    margin-top: 40px;
+    margin-top: 2.5rem;
   }
   .featured {
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
   }
   
 .pic{
-  height: 30px;
-  width: 30px;
+  height: 1.8rem;
+  width: 1.8rem;
 }
 .projectpic{
-  height:400px;
-  width: 700px;
+  height:25rem;
+  width: 43.75rem;
   border: solid 1px white;
 }
 small{
@@ -28,4 +28,10 @@ small{
 }
 small:hover {
   color:white;
+}
+
+@media(max-width: 768px){
+  html{
+    font-size: 45%;
+  }
 }

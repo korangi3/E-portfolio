@@ -1,14 +1,14 @@
 .header {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 40px;
+  grid-gap: 2.5rem;
   align-items: right;
-  padding-left: 100px;
+  padding-left: 6.25rem;
 }
 .header h5 {
   font-size: 1em;
   font-weight: 200;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 .header a {
   font-weight: 500;
@@ -18,16 +18,16 @@
   color: rgb(94, 0, 62);
 }
 .header h4 {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   font-weight: 200;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 .btn {
   display: inline-block;
   background: #aa0000;
-  padding: 10px 16px;
-  border-radius: 8px;
-  margin-top: 20px;
+  padding: 0.625rem 1rem;
+  border-radius: .5rem;
+  margin-top: 1.25rem;
   font-weight: 600;
   transition-duration: 0.4s;
 }
@@ -41,44 +41,50 @@
 .res p{
   transition-duration: 0.4s;
   color: yellow;
-  margin: 7px;
+  margin: .5rem;
 }
 .res a{
-  margin-left: 20px;
+  margin-left: 1.25rem;
 }
 .res p:hover {
   color: orange;
 }
 .res img{
-  width: 30px;
-  height: 30px;
+  width: 1.9rem;
+  height: 1.9rem;
 }
 
 .btm {
   text-align: center;
-  padding-top: 80px;
-  font-size: 1.5em;
+  padding-top: 5rem;
+  font-size: 1.5rem;
   font-weight: 200;
 }
 .btm h4 {
-  padding-bottom: 100px;
+  padding-bottom: 6.25rem;
   font-weight: 400;
 }
 
 .icons {
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 6.25rem;
+  padding-right: 6.25rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 50px;
+  grid-gap: 3.125rem;
 }
 
 .icons img {
-  height: 50px;
-  width: 50px;
+  height: 3.125rem;
+  width: 3.125rem;
 }
 
 .icons p {
-  font-size: 0.8em;
+  font-size: 0.8rem;
   font-weight: 500;
+}
+
+@media(max-width: 768px){
+  html{
+    font-size: 45%;
+  }
 }
