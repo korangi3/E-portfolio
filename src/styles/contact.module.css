@@ -54,6 +54,13 @@ textarea {
     color: red;
   }
 
+.link{
+  color: yellow;
+}
+.link:hover {
+  color: orangered;
+}
+
   @media(max-width: 768px){
     html{
       font-size: 45%;
