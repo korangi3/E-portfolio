@@ -51,7 +51,6 @@ nav a:hover {
 nav a:active{
   border-color: rgb(212, 147, 231);
   border-bottom: 3px solid transparent;
-  background-color: rgb(255, 98, 255);
 }
 
 
