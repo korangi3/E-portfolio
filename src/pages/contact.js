@@ -8,7 +8,7 @@ export default function Contact() {
     <Layout>
       <form action="POST">
         <div className={styles.container}>
-          <h1>Send me a message.</h1><br/>
+          <h2>Send me a message.</h2><br/>
           <p>Name:</p>
           <input type="text" name="name" placeholder="Enter full name"></input>
           <p>Email: </p>

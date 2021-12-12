@@ -31,11 +31,7 @@ export default function Home() {
             My Projects
           </Link>
         </div>
-        <img
-          src="/border1.png"
-          alt="site banner"
-          style={{ maxWidth: "100%" }}
-        />
+        <img className={styles.profile} src="/profile.jpg" alt="site banner" />
       </section>
       <div className={styles.res}>
        <a href="https://github.com/korangi3" target="_blank"><img src="github.png" /></a> 
