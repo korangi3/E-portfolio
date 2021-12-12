@@ -31,6 +31,9 @@
   border-radius: 25px 25px;
   box-shadow: 15px 25px 45px rgba(20, 15, 15, 0.4);
 }
+.border:hover{
+  border: solid 1px pink;
+}
 
 Link:hover{
   background-color:rgb(245, 148, 208);
