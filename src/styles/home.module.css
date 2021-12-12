@@ -54,6 +54,12 @@
   height: 1.9rem;
 }
 
+.profile{
+  border-radius: 50%;
+  width: 25rem;
+  height: 25rem;
+}
+
 .btm {
   text-align: center;
   padding-top: 5rem;

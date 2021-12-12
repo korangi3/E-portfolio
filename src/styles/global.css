@@ -37,16 +37,23 @@ nav .links {
 nav a {
   display: inline-block;
   margin-left: 1rem;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 400;
   padding-bottom: .5rem;
   border-bottom: 3px solid transparent;
   transition-duration: 0.4s;
 }
+
 nav a:hover {
   border-color: rgb(212, 147, 231);
   color: rgb(212, 147, 231);
 }
+nav a:active{
+  border-color: rgb(212, 147, 231);
+  border-bottom: 3px solid transparent;
+  background-color: rgb(255, 98, 255);
+}
+
 
 
 footer p{
