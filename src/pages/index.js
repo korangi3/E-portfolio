@@ -2,7 +2,6 @@ import { graphql, Link } from "gatsby"
 import React from "react"
 import Layout from "../components/Layout"
 import * as styles from "../styles/home.module.css"
-import "boxicons"
 
 export default function Home() {
   return (
@@ -35,23 +34,23 @@ export default function Home() {
         <img className={styles.profile} src="/profile.jpg" alt="site banner" />
       </section>
       <div className={styles.res}>
-      <a href="https://github.com/korangi3" target="_blank" ><box-icon name='github' type='logo' size='md' animation='burst-hover' color='#f646d0' ></box-icon></a>
-       <a href="https://www.linkedin.com/in/bipin-gurung-535ba420a/" target="_blank"><box-icon type='logo' name='linkedin' size='md' animation='burst-hover' color='#f646d0'></box-icon></a> 
+      <a href="https://github.com/korangi3" target="_blank" ><img src="githublogo.png"/></a>
+       <a href="https://www.linkedin.com/in/bipin-gurung-535ba420a/" target="_blank"><img src="linkedin.png"/></a> 
       <a href="https://docs.google.com/document/d/1WcCZjJfR875DjdTA9OlsGTlBuglQIzIs/edit?usp=sharing&ouid=107591505742405245245&rtpof=true&sd=true" target="_blank"><p>RESUME</p></a>
       </div>
       <div className={styles.btm}>
         <h4>Technologies I'm familiar with</h4>
         <div className={styles.icons}>
           <div>
-          <box-icon name='html5' type='logo' size='lg' color='#FF4500' />
+          <img src="html.png"/>
             <p>Html</p>
           </div>
           <div>
-          <box-icon type='logo' name='css3' size='lg' color='#2965F1'></box-icon>
+          <img src="css.png"/>
             <p>CSS</p>
           </div>
           <div>
-          <box-icon name='javascript' type='logo' color='#F0DB4F' size='lg'></box-icon>
+          <img src="js.png"/>
             <p>Javascript</p>
           </div>
           <div>
@@ -59,11 +58,11 @@ export default function Home() {
             <p>Python</p>
           </div>
           <div>
-          <box-icon name='react' type='logo' color='#2bbbe1' size='lg'></box-icon>
+          <img src="react.png"/>
             <p>React</p>
           </div>
           <div>
-          <box-icon name='git' type='logo' color='#f34f29' size='lg'></box-icon>
+          <img src="git.png"/>
             <p>Git</p>
           </div>
           <div>
