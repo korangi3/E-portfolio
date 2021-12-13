@@ -35,7 +35,7 @@ export default function Home() {
         <img className={styles.profile} src="/profile.jpg" alt="site banner" />
       </section>
       <div className={styles.res}>
-      <a href="https://github.com/korangi3" target="_blank" ><box-icon name='github' type='logo' size='md' animation='burst-hover' color='#f646d0' ></box-icon></a>
+      <a href="https://github.com/korangi3" target="_blank" ><box-icon type='logo' name='github' size='md' animation='burst-hover' color='#f646d0'></box-icon></a>
        <a href="https://www.linkedin.com/in/bipin-gurung-535ba420a/" target="_blank"><box-icon type='logo' name='linkedin' size='md' animation='burst-hover' color='#f646d0'></box-icon></a> 
       <a href="https://docs.google.com/document/d/1WcCZjJfR875DjdTA9OlsGTlBuglQIzIs/edit?usp=sharing&ouid=107591505742405245245&rtpof=true&sd=true" target="_blank"><p>RESUME</p></a>
       </div>

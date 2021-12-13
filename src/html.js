@@ -21,7 +21,6 @@ export default function HTML(props) {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
-        <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
       </body>
     </html>
   )
