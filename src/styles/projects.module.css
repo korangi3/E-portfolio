@@ -21,7 +21,7 @@
   font-weight: 500;
 }
 .projects p {
-  color: rgb(245, 148, 208);
+  color: rgb(105, 95, 219);
   margin-top: .25rem;
   font-weight: 500;
 }
@@ -32,11 +32,11 @@
   box-shadow: 15px 25px 45px rgba(20, 15, 15, 0.4);
 }
 .border:hover{
-  border: solid 1px pink;
+  border: solid 1px rgb(110, 0, 253);
 }
 
 Link:hover{
-  background-color:rgb(245, 148, 208);
+  background-color:rgb(255, 32, 170);
 }
 
 @media(max-width: 768px){
