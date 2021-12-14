@@ -6,7 +6,7 @@ import * as styles from "../styles/contact.module.css"
 export default function Contact() {
   return (
     <Layout>
-      <form action="POST">
+      <form action="POST" data-netlify="true">
         <div className={styles.container}>
           <div className={styles.formbox}>
           <h2>Send me a message.</h2><br/>
