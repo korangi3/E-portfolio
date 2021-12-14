@@ -8,6 +8,7 @@ export default function Contact() {
     <Layout>
       <form action="POST">
         <div className={styles.container}>
+          <div className={styles.formbox}>
           <h2>Send me a message.</h2><br/>
           <p>Name:</p>
           <input type="text" name="name" placeholder="Enter full name"></input>
@@ -17,6 +18,7 @@ export default function Contact() {
           <textarea name="message" placeholder="Enter message"></textarea>
           <br />
           <Link className={styles.button} to="/submitted">Submit</Link>
+          </div>
         </div>
       </form>
     </Layout>

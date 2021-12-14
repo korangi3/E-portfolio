@@ -12,7 +12,7 @@
 }
 .header a {
   font-weight: 500;
-  color: rgb(245, 104, 214);
+  color: rgb(245, 8, 193);
 }
 .header a:hover {
   color: rgb(94, 0, 62);
@@ -40,18 +40,18 @@
 }
 .res p{
   transition-duration: 0.4s;
-  color: yellow;
+  color: rgb(228, 15, 157);
   margin: .5rem;
 }
 .res a{
   margin-left: 1.25rem;
 }
 .res p:hover {
-  color: orange;
+  color: rgb(126, 26, 112);
 }
 .res img{
-  width: 1.6rem;
-  height: 1.6rem;
+  width: 2rem;
+  height: 2rem;
 }
 
 .profile{

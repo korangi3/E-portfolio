@@ -5,14 +5,14 @@
   padding: 0;
   text-decoration: none;
   font-family: "Montserrat";
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 html, body {
   min-height: 100%;
 }
 body {
   background-size: cover;
-  background: radial-gradient(at top left, rgb(115, 78, 250) 0%, rgb(64, 1, 116) 100%);
+  background: radial-gradient(at top left, #ADA996 0%, #EAEAEA 100%);
 
 }
 p {
@@ -45,8 +45,7 @@ nav a {
 }
 
 nav a:hover {
-  border-color: rgb(212, 147, 231);
-  color: rgb(212, 147, 231);
+  border-color: rgb(49, 39, 53);
 }
 nav a:active{
   border-color: rgb(212, 147, 231);
@@ -57,17 +56,17 @@ nav a:active{
 
 footer p{
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   margin: 40px auto;
   font-weight: 300;
 }
 
 footer a{
   font-weight: 500;
-  color: black;
+  color: rgb(49, 21, 38);
 }
 footer a:hover{
-  color: rgb(126, 126, 126);
+  color: rgb(248, 100, 211);
 }
 
 @media(max-width: 768px){
