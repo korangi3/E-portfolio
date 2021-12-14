@@ -2,10 +2,10 @@
 
 .container {
   text-align: center;
-  padding-left: 38%;
   
 }
 .formbox{
+  margin-left: 38%;
   text-align: left;
   width: 40%;
 }
