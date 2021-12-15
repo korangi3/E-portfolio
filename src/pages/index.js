@@ -36,7 +36,7 @@ export default function Home() {
       <div className={styles.res}>
       <a href="https://github.com/korangi3" target="_blank" ><img src="githublogo.png"/></a>
        <a href="https://www.linkedin.com/in/bipin-gurung-535ba420a/" target="_blank"><img src="linkedin.png"/></a> 
-      <a href="https://docs.google.com/document/d/1WcCZjJfR875DjdTA9OlsGTlBuglQIzIs/edit?usp=sharing&ouid=107591505742405245245&rtpof=true&sd=true" target="_blank"><p>RESUME</p></a>
+      <a href="https://drive.google.com/file/d/1fNmOwoz1eTieAkTd9hTARZII1mgz0Ahc/view?usp=sharing" target="_blank"><p>RESUME</p></a>
       </div>
       <div className={styles.btm}>
         <h4>Technologies I'm familiar with</h4>
